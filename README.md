@@ -1,1 +1,1 @@
-# Computer-Vision-Based-Fitness-Pose-Evaluation
+# Computer-Vision-Based-Pose-Estimation
