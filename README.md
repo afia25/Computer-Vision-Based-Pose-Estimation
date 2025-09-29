@@ -18,11 +18,11 @@ The final result of this model is the detection of 33 pose landmarks (joints suc
 <p align="center"><img src="./img/2.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
 <p align="center"><img src="./img/3.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
 <p align="center"><img src="./img/4.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
-<p align="center"><img src="./img/5.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/6.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/7.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/8.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/9.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
+<p align="center"><img src="./img/5.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/6.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/7.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/8.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/9.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
 
 ### Methodology
 1. Frame Capture & FPS Calculationcv2.VideoCapture() is used to read video frames. cv2.imshow() displayed frames. FPS is tracked using time difference between frames.
