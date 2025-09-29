@@ -27,7 +27,7 @@ The final result of this model is the detection of 33 pose landmarks (joints suc
 ### Methodology
 1. Frame Capture & FPS Calculationcv2.VideoCapture() was used to read video frames. cv2.imshow() displayed the frames. FPS was tracked using time difference between frames.
 2. Pose Detection Pipeline converted BGR frames into RGB. These RGB frames were passed through mp.solutions.pose.Pose().process() in order to get 33 landmarks with (x, y, z, visibility) values. Then normalized coordinates were scaled into pixel coordinates (using image width and height).
-3. mp.solutions.drawing_utils.draw_landmarks() was used to drawing landmarks, overlay joints and skeleton lines.
+3. mp.solutions.drawing_utils.draw_landmarks() was used for drawing landmarks, overlay joints and skeleton lines.
 4. Object-Oriented Module Creation used the pipeline in a PoseDetector class with parameters for mode, upper body, smoothing, detection confidence, and tracking confidence. Methods like findPose() encapsulated the detection logic. The class was reused across test videos. <br>
 
 In conclusion, this model is a real-time vision-based system to detect human joints from videos and evaluate pose using pose estimation techniques, helping users perform exercises correctly by comparing predicted postures with ideal reference models. The modular class (PoseDetector) makes it simple to reuse the code for future projects like gesture recognition, fitness tracking or AR applications.
