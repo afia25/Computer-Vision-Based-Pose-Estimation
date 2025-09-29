@@ -3,13 +3,15 @@
 This work demonstrates real-time human pose estimation using Python. This is done by capturing frames from videos, calculate FPS, and run MediaPipe’s pose estimation model. Landmarks (33 body keypoints) are detected in real time, drawn on the frame with connections (skeleton), and tested across multiple videos. <br>
 
 ### Models and libraries used
-**Libraries:OpenCV (cv2)**: for video capture, image processing, drawing text, shapes, and showing output. 
-**MediaPipe:** for the pose estimation model and utilities to draw landmarks and connections.
-**time:** to calculate frames per second (FPS).
+**Libraries: <br>
+OpenCV (cv2)**: for video capture, image processing, drawing text, shapes, and showing output. <br>
+**MediaPipe:** for the pose estimation model and utilities to draw landmarks and connections. <br>
+**time:** to calculate frames per second (FPS). 
 
-**Model:MediaPipe Pose**: a lightweight deep learning model capable of detecting 33 landmarks on the human body. The model works with both detection and tracking modes for efficiency. Detection mode finds new poses. Tracking mode follows existing ones, saving computation.
+**Model: <br>
+MediaPipe Pose**: a lightweight deep learning model capable of detecting 33 landmarks on the human body. The model works with both detection and tracking modes for efficiency. Detection mode finds new poses. Tracking mode follows existing ones, saving computation.
 
-Methodology
+### Methodology
 1. Frame Capture & FPS Calculationcv2.VideoCapture() is used to read video frames. cv2.imshow() displayed frames. FPS is tracked using time difference between frames.
 2. Pose Detection PipelineAt first BGR frames were converted into RGB. These RGB frames were passed  through mp.solutions.pose.Pose().process() in order to get 33 landmarks with (x, y, z, visibility) values. Then normalized coordinates were scaled into pixel coordinates (using image width and height).
 
