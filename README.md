@@ -15,9 +15,9 @@ Figure: 33 landmarks detection on the human body by MediaPipe Pose.
 
 ### Result
 The final result of this model is the detection of 33 pose landmarks (joints such as nose, eyes, ears, shoulders, elbows, hips, knees, ankles, etc.) in real-time video at ~24 FPS on CPU.Skeleton connections drawn between the landmarks.This model can do smooth tracking of body joints across frames.The FPS counter shows performance, proving it runs efficiently on CPU without GPU acceleration.The modular class (PoseDetector) makes it simple to reuse the code for future projects like gesture recognition, fitness tracking, or AR applications.
-<p align="center"><img src="./img/2.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/3.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
-<p align="center"><img src="./img/4.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
+<p align="center"><img src="./img/2.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/3.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
+<p align="center"><img src="./img/4.jpg" alt="App Screenshot" style="height:400px; width:auto;"></p>
 <p align="center"><img src="./img/5.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
 <p align="center"><img src="./img/6.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
 <p align="center"><img src="./img/7.jpg" alt="App Screenshot" style="height:300px; width:auto;"></p>
